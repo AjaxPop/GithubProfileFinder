@@ -1,12 +1,15 @@
+/*Change the default margin/padding*/
 * {
 	margin: 0;
 	padding: 0;
 }
 
+/*Stylize the body*/
  body{
 	background-color:#fe4001;
  }
 
+/*Stylize the navigation bar*/
  ul {
   list-style-type: none;
   margin: 0;
@@ -15,10 +18,12 @@
   background-color: #FE0101;
 }
 
+ /*Make the li tag float left*/
 li {
   float: left;
 }
 
+    /*Stylize li a */
     li a {
         display: block;
         font-size: 20px;
@@ -30,28 +35,35 @@ li {
         padding-left:16px;
     }
 
+    /*If the user hovers over Home and About*/
  .hover a:hover{
 	background-color:#fe8001;
  }
 
+/*Stylize the left navbar(Github Profile Finder)*/
  .logo{
   font-family:Impact;
   font-size:20px;
  }
 
+ /*Have text move to the right*/
  .right{
 	float:right;
  }
+
+ /*Center the text*/
 #center{
 	 text-align: center;
 }
 
+/*Stylize the mainText*/
 #mainText {
     font-size: 75px;
     color:#fff;
     margin-top:100px;
 }
 
+/*Stylize the input text*/
 input {
     position: relative;
     display: inline-block;
@@ -71,6 +83,7 @@ input {
         padding-right: 30px;
     }
 
+    /*Stylize the input submit*/
     input[type = "submit"] {
         position: relative;
         left: -5px;
@@ -86,9 +99,14 @@ input {
             background: #00FFFF ;
         }
 
-
+        /*Stylize the data that will be uploaded to the page*/
         #data{
             padding-top: 25px;
             color:#fff;
         }
  
+
+        /*Stylize about.html*/
+        .about{
+            font-size:25px;
+        }
