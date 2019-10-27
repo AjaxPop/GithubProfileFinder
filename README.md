@@ -1,2 +1,2 @@
 # GithubProfileFinder
-An application that fetches data from Github's API and displays Github repositories using Ajax. 
+An application that fetches data and displays information from Github. 
